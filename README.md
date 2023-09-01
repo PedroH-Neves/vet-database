@@ -67,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[vet-clinic]** is a fictional vet clinic database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -142,39 +142,20 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Grandi0z/vet_clinic_database.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+To install this project, you must execute the sql instructions contained in [schema.sql](./schema.sql) to create all tables and use instructions from [data.sql](./data.sql) to populate tables with all data.
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project, you can execute the queries from [queries.sql](./queries.sql) or try your own SQL queries
 
 ### Run tests
 
@@ -190,15 +171,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using:GitHub Pages Netifly or Render
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,17 +181,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Pedro Henrique Neves**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/PedroH-Neves)
+- Twitter: [@twitterhandle](https://twitter.com/PedroHDN710)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pedrohdn7/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,11 +240,6 @@ I would like to thank...
 - **[Question_1]**
 
   - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
