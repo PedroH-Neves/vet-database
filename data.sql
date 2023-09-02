@@ -14,3 +14,22 @@ INSERT INTO animals (name, DATE_OF_BIRTH, ESCAPE_ATTEMPTS, NEUTERED, WEIGHT_KG) 
 ('Boarmon', '2005-06-07', 7, true, 20.4), 
 ('Blossom', '1998-10-13', 3, true, 17), 
 ( 'Ditto', '2022-05-14', 4, true, 22);
+
+INSERT INTO OWNERS (FULL_NAME, AGE) VALUES 
+('Sam Smith', 34), 
+('Jennifer Orwell', 19), 
+('Bob', 45), 
+('Melody Pond', 77), 
+('Dean Winchester', 14), 
+('Jodie Whittaker', 38);
+
+INSERT INTO SPECIES (NAME) VALUES ('Pokemon'), ('Digimon');
+
+UPDATE ANIMALS SET SPECIES_ID = 2 WHERE NAME LIKE '%mon';
+UPDATE ANIMALS SET SPECIES_ID = 1 WHERE SPECIES_ID IS NULL;
+
+UPDATE ANIMALS SET OWNER_ID = 1 WHERE NAME = 'Agumon';
+UPDATE ANIMALS SET OWNER_ID = 2 WHERE NAME = 'Gabumon' OR NAME = 'Pikachu'; 
+UPDATE ANIMALS SET OWNER_ID = 3 WHERE NAME = 'Devimon' OR NAME = 'Plantmon';
+UPDATE ANIMALS SET OWNER_ID = 4 WHERE NAME = 'Charmander' OR NAME = 'Squirtle' OR NAME = 'Blossom';
+UPDATE ANIMALS SET OWNER_ID = 5 WHERE NAME = 'Angemon' OR NAME = 'Boarmon';
