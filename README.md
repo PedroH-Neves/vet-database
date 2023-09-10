@@ -67,6 +67,8 @@ After you're finished please remove all the comments and instructions!
 
 **[vet-clinic]** is a fictional vet clinic database.
 
+![image](https://github.com/PedroH-Neves/vet-database/assets/85895404/89b0c3e6-e7ba-4cd5-8ca5-685d60f9e79b)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
